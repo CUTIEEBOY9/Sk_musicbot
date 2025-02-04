@@ -7,10 +7,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from AnonX import LOGGER, app, userbot
-from AnonX.core.call import Anon
-from AnonX.plugins import ALL_MODULES
-from AnonX.utils.database import get_banned_users, get_gbanned
+from CUTEx import LOGGER, app, userbot
+from Cutex.core.call import Anon
+from cuteX.plugins import ALL_MODULES
+from cuteX.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -52,7 +52,7 @@ async def init():
     await userbot.start()
     await Anon.start()
     await Anon.decorators()
-    LOGGER("AnonX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️MADE BY SHIVAM♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AnonX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️MADE BY CUTEBOY♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
